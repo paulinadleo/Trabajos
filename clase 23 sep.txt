@@ -1,0 +1,12 @@
+x = float(input("ingrese un numero flotante:"))
+if int(x) % 2 ==0
+    paridad = "par"
+else: 
+    paridad = "impar"
+if x > 0:
+    signo = "positivo"
+elif x < 0:
+    signo = "negativo"
+else: 
+    signo = "cero"
+print(f"el numero: **(x)** es (paridad) y (signo)")
